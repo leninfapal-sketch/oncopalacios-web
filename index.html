@@ -6,11 +6,83 @@
 <meta content="Dr. Lenin Palacios, oncólogo clínico. Atención especializada en diagnóstico, tratamiento y seguimiento del cáncer en Loja y Guayaquil, Ecuador." name="description"/>
 <title>Dr. Lenin Palacios | Oncólogo Clínico — ONCOPALACIOS</title>
 <link href="styles.css" rel="stylesheet"/>
-</head>
+<style id="paleta-borgona-oliva-y-acceso">
+/* PALETA ONCOPALACIOS: BORGOÑA + VERDE OLIVA.
+   Se preservan fotografías, distribución, contenidos y styles.css original. */
+:root {
+  --navy: #652b45;
+  --navy2: #83485d;
+  --teal: #777e4e;
+  --ink: #453840;
+  --muted: #756b70;
+  --pale: #f7f6ef;
+  --white: #ffffff;
+}
+.brand-mark { background: #652b45 !important; color: #fff !important; }
+.brand .green { color: #777e4e !important; }
+.brand .blue { color: #652b45 !important; }
+.hero { background: linear-gradient(120deg, #fbf5f7 0%, #fff 68%) !important; }
+.hero h1, .section h2, .service h3, .locations h3,
+.trajectory-card h3, .trajectory-item strong, .resource-card h3,
+.genetics-points h3, .clinic h4 { color: #652b45 !important; }
+.eyebrow, .role, .accent-green, .service-icon, .resource-label,
+.resource-card summary, .specialty-intro { color: #777e4e !important; }
+.eyebrow.light { color: #e3e9c9 !important; }
+.btn, a.btn, .btn-small { background: #777e4e !important; color: #fff !important; }
+.btn:hover, a.btn:hover, .btn-small:hover { background: #5d653a !important; }
+.btn-outline { border-color: #bba4ad !important; color: #652b45 !important; }
+.btn-outline:hover { background: #f9f0f3 !important; }
+.site-header nav a:hover, .clinic a, .contact-panel a:not(.btn) { color: #777e4e !important; }
+.contact { background: #652b45 !important; }
+.contact h2, .contact h3 { color: #fff !important; }
+.contact p { color: #f5eaf0 !important; }
+footer { background: #4a1e32 !important; }
+.soft, .specialty-band, .resources { background: #faf8f6 !important; }
+.credential, .genetics-symbol, .cancer-icon, .cancer-list a span { background: #f0f1e4 !important; }
+.credential, .trajectory-card h3 { border-color: #777e4e !important; }
+.portrait-caption { background: #652b45e8 !important; }
+.portrait-card { box-shadow: 22px 22px 0 #e9d8de !important; }
+.specialty-photo { box-shadow: 16px 16px 0 #e9ebd9 !important; }
+.hero-ribbon, .genetics-symbol { color: #777e4e !important; }
+.genetics-art { background: linear-gradient(145deg, #f5f2e9, #e9e8d7) !important; color: #652b45 !important; }
+.genetics-art svg path { stroke: #777e4e !important; }
+.genetics-art svg g { stroke: #aab38a !important; }
+.teleconsulta-ubicaciones { border-color: #e3ded6 !important; border-left-color: #777e4e !important; background: #f8f9f2 !important; }
+.teleconsulta-ubicaciones h3 { color: #652b45 !important; }
+/* Nuevo enlace de acceso al sistema; no cambia el resto de la navegación. */
+.system-access {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 9px 12px; border: 1.5px solid #652b45; border-radius: 6px;
+  color: #652b45 !important; background: #fff; font-size: 12px;
+  font-weight: 700; text-decoration: none; white-space: nowrap; line-height: 1.4;
+}
+.system-access:hover, .system-access:focus-visible { background: #f9f0f3; }
+/* Ajustes exclusivamente para que quepa el botón adicional. */
+@media (min-width: 851px) {
+  .site-header .nav { gap: 10px; }
+  .site-header nav { gap: 10px; font-size: 12px; }
+  .site-header .brand { flex-shrink: 0; }
+  .site-header .btn-small { white-space: nowrap; padding: 10px 12px; }
+}
+@media (min-width: 851px) and (max-width: 1120px) {
+  .site-header nav { gap: 7px; font-size: 11px; }
+  .system-access { font-size: 11px; padding: 8px; }
+  .site-header .brand { font-size: 15px; }
+}
+@media (max-width: 850px) {
+  .site-header .nav { height: auto; min-height: 72px; flex-wrap: wrap; padding-top: 10px; padding-bottom: 10px; }
+  .system-access { margin-left: auto; font-size: 11px; padding: 9px 10px; }
+}
+@media (max-width: 560px) {
+  .site-header .nav { gap: 8px; }
+  .system-access { order: 3; margin-left: 0; flex: 1 1 100%; }
+  .site-header .btn-small { margin-left: auto; }
+}
+</style></head>
 <body>
-<header class="site-header"><div class="wrap nav"><a class="brand" href="#inicio"><span class="brand-mark">OP</span><span><span class="green">ONCO</span><span class="blue">PALACIOS</span><small>ONCOLOGÍA CLÍNICA</small></span></a><nav aria-label="Navegación principal"><a href="#perfil">Sobre mí</a><a href="#trayectoria">Trayectoria</a><a href="#servicios">Servicios</a><a href="#informacion">Información y consejos</a><a href="#genetica">Estudios genéticos</a><a href="#ubicaciones">Atención</a><a href="#contacto">Contacto</a></nav><a class="btn btn-small" href="https://wa.me/593995847769?text=Hola%2C%20deseo%20agendar%20una%20consulta%20oncol%C3%B3gica." rel="noopener noreferrer" target="_blank">Agendar consulta</a></div></header>
+<header class="site-header"><div class="wrap nav"><a class="brand" href="#inicio"><span class="brand-mark">OP</span><span><span class="green">ONCO</span><span class="blue">PALACIOS</span><small>ONCOLOGÍA CLÍNICA</small></span></a><nav aria-label="Navegación principal"><a href="#perfil">Sobre mí</a><a href="#trayectoria">Trayectoria</a><a href="#servicios">Servicios</a><a href="#informacion">Información y consejos</a><a href="#genetica">Estudios genéticos</a><a href="#ubicaciones">Atención</a><a href="#contacto">Contacto</a></nav><a aria-label="Acceder al sistema médico Sis-Medical (abre en nueva pestaña)" class="system-access" href="https://oncomedic.up.railway.app/" rel="noopener noreferrer" target="_blank">Acceso al sistema médico ↗</a><a class="btn btn-small" href="https://wa.me/593995847769?text=Hola%2C%20deseo%20agendar%20una%20consulta%20oncol%C3%B3gica." rel="noopener noreferrer" target="_blank">Agendar consulta</a></div></header>
 <main>
-<section class="hero" id="inicio"><div class="wrap hero-grid"><div class="hero-copy"><p class="eyebrow">ATENCIÓN ONCOLÓGICA ESPECIALIZADA</p><h1><span aria-hidden="true" class="hero-ribbon"><svg viewbox="0 0 48 64" xmlns="http://www.w3.org/2000/svg"><path d="M25 8C12 -1 3 13 10 26c7 13 24 24 32 31M23 8C36 -1 45 13 38 26 31 39 14 50 6 57" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="7"></path><path d="M13 30l23 21" stroke="currentColor" stroke-linecap="round" stroke-width="7"></path></svg></span>Dr. Lenin Palacios</h1><p class="role">Oncólogo Clínico</p><p class="lead">Atención médica centrada en cada persona, con un enfoque integral para el diagnóstico, tratamiento y seguimiento del cáncer.</p><div class="actions"><a class="btn" href="https://wa.me/593995847769?text=Hola%2C%20deseo%20agendar%20una%20consulta%20oncol%C3%B3gica." rel="noopener noreferrer" target="_blank">Solicitar una cita <span aria-hidden="true">↗</span></a><a class="btn-outline" href="#perfil">Conocer mi trayectoria</a></div><div class="hero-meta"><span>✦ Atención personalizada</span><span>✦ Loja y Guayaquil</span></div></div><div class="portrait-card"><img alt="Fotografía profesional del Dr. Lenin Palacios" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" src="assets/foto-doctor.jpg"/><div class="portrait-placeholder">Tu fotografía profesional<br/><small>Guárdala como assets/foto-doctor.jpg</small></div><div class="portrait-caption">Compromiso con una atención humana y especializada</div></div></div></section><section class="section specialty-band" id="especialidades"><div class="wrap specialty-layout"><div class="specialty-copy"><p class="eyebrow">ATENCIÓN INTEGRAL Y PERSONALIZADA</p><h2>Un acompañamiento cercano en cada etapa</h2><p>Mi compromiso es brindar atención oncológica basada en evidencia científica, con una visión integral del paciente y decisiones compartidas con su familia.</p><p class="specialty-intro">Atención especializada en los principales tipos de cáncer:</p><div class="cancer-list"><a href="#informacion"><span><img src="assets/icono-mama.svg" alt="" aria-hidden="true" /></span>Mama</a><a href="#informacion"><span><img src="assets/icono-pulmon.svg" alt="" aria-hidden="true" /></span>Pulmón</a><a href="#informacion"><span><img src="assets/icono-prostata.svg" alt="" aria-hidden="true" /></span>Próstata</a><a href="#informacion"><span><img src="assets/icono-colon.svg" alt="" aria-hidden="true" /></span>Colon y recto</a><a href="#informacion"><span><img src="assets/icono-estomago.svg" alt="" aria-hidden="true" /></span>Estómago</a><a href="#informacion"><span><img src="assets/icono-melanoma.svg" alt="" aria-hidden="true" /></span>Melanoma</a><a href="#informacion"><span><img src="assets/icono-higado.svg" alt="" aria-hidden="true" /></span>Hígado y vías biliares</a><a href="#informacion"><span><img src="assets/icono-otros.svg" alt="" aria-hidden="true" /></span>Otros tumores sólidos</a></div><a class="btn-outline" href="#servicios">Conocer los servicios</a></div><div class="specialty-photo"><img alt="Dr. Lenin Palacios en un entorno clínico con vegetación" loading="lazy" src="assets/foto-acompanamiento.jpg"/></div></div></section>
+<section class="hero" id="inicio"><div class="wrap hero-grid"><div class="hero-copy"><p class="eyebrow">ATENCIÓN ONCOLÓGICA ESPECIALIZADA</p><h1><span aria-hidden="true" class="hero-ribbon"><svg viewbox="0 0 48 64" xmlns="http://www.w3.org/2000/svg"><path d="M25 8C12 -1 3 13 10 26c7 13 24 24 32 31M23 8C36 -1 45 13 38 26 31 39 14 50 6 57" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="7"></path><path d="M13 30l23 21" stroke="currentColor" stroke-linecap="round" stroke-width="7"></path></svg></span>Dr. Lenin Palacios</h1><p class="role">Oncólogo Clínico</p><p class="lead">Atención médica centrada en cada persona, con un enfoque integral para el diagnóstico, tratamiento y seguimiento del cáncer.</p><div class="actions"><a class="btn" href="https://wa.me/593995847769?text=Hola%2C%20deseo%20agendar%20una%20consulta%20oncol%C3%B3gica." rel="noopener noreferrer" target="_blank">Solicitar una cita <span aria-hidden="true">↗</span></a><a class="btn-outline" href="#perfil">Conocer mi trayectoria</a></div><div class="hero-meta"><span>✦ Atención personalizada</span><span>✦ Loja y Guayaquil</span></div></div><div class="portrait-card"><img alt="Fotografía profesional del Dr. Lenin Palacios" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" src="assets/foto-doctor.jpg"/><div class="portrait-placeholder">Tu fotografía profesional<br/><small>Guárdala como assets/foto-doctor.jpg</small></div><div class="portrait-caption">Compromiso con una atención humana y especializada</div></div></div></section><section class="section specialty-band" id="especialidades"><div class="wrap specialty-layout"><div class="specialty-copy"><p class="eyebrow">ATENCIÓN INTEGRAL Y PERSONALIZADA</p><h2>Un acompañamiento cercano en cada etapa</h2><p>Mi compromiso es brindar atención oncológica basada en evidencia científica, con una visión integral del paciente y decisiones compartidas con su familia.</p><p class="specialty-intro">Atención especializada en los principales tipos de cáncer:</p><div class="cancer-list"><a href="#informacion"><span><img alt="" aria-hidden="true" src="assets/icono-mama.svg"/></span>Mama</a><a href="#informacion"><span><img alt="" aria-hidden="true" src="assets/icono-pulmon.svg"/></span>Pulmón</a><a href="#informacion"><span><img alt="" aria-hidden="true" src="assets/icono-prostata.svg"/></span>Próstata</a><a href="#informacion"><span><img alt="" aria-hidden="true" src="assets/icono-colon.svg"/></span>Colon y recto</a><a href="#informacion"><span><img alt="" aria-hidden="true" src="assets/icono-estomago.svg"/></span>Estómago</a><a href="#informacion"><span><img alt="" aria-hidden="true" src="assets/icono-melanoma.svg"/></span>Melanoma</a><a href="#informacion"><span><img alt="" aria-hidden="true" src="assets/icono-higado.svg"/></span>Hígado y vías biliares</a><a href="#informacion"><span><img alt="" aria-hidden="true" src="assets/icono-otros.svg"/></span>Otros tumores sólidos</a></div><a class="btn-outline" href="#servicios">Conocer los servicios</a></div><div class="specialty-photo"><img alt="Dr. Lenin Palacios en un entorno clínico con vegetación" loading="lazy" src="assets/foto-acompanamiento.jpg"/></div></div></section>
 <section class="section" id="perfil"><div class="wrap narrow"><p class="eyebrow">CONOCE A TU ESPECIALISTA</p><h2>Experiencia, <span class="accent-green">ciencia y acompañamiento</span></h2><p>Soy el Dr. Lenin Palacios, médico especialista en Oncología Clínica. Mi práctica se enfoca en brindar una evaluación individualizada y opciones de tratamiento basadas en la evidencia científica, acompañando al paciente y su familia durante cada etapa de la atención.</p><div class="credential">Especialista en Oncología Clínica · Universidad Católica Argentina, Buenos Aires</div></div></section>
 <section class="section soft" id="trayectoria"><div class="wrap"><p class="eyebrow">PREPARACIÓN Y ACTUALIZACIÓN CIENTÍFICA</p><h2>Formación <span class="accent-green">académica y trayectoria profesional</span></h2><div class="trajectory-grid"><article class="trajectory-card"><h3>Formación académica</h3><div class="trajectory-item"><strong>Especialista en Oncología Clínica</strong><p>Universidad Católica Argentina, Buenos Aires · Hospital Universitario Austral</p></div><div class="trajectory-item"><strong>Doctor en Medicina y Cirugía</strong><p>Universidad Nacional de Loja</p></div></article><article class="trajectory-card"><h3>Educación continua</h3><div class="trajectory-item"><strong>Diplomado en Investigación Clínica</strong><p>Universidad San Francisco de Quito</p></div><div class="trajectory-item"><strong>Diplomado en Biología Molecular</strong><p>Universidad de Lieja, Bélgica · Universidad de Las Américas (UDLA)</p></div><div class="trajectory-item"><p>Participación continua en congresos nacionales e internacionales de oncología.</p></div></article><article class="trajectory-card"><h3>Sociedades científicas</h3><div class="trajectory-item"><strong>SEO</strong><p>Sociedad Ecuatoriana de Oncología Clínica</p></div><div class="trajectory-item"><strong>SEPAM</strong><p>Sociedad Ecuatoriana de Patología Mamaria</p></div><div class="trajectory-item"><strong>SOTE</strong><p>Sociedad de Oncología Torácica del Ecuador</p></div></article></div></div></section>
 <section class="section soft" id="servicios"><div class="wrap"><p class="eyebrow">ÁREAS DE ATENCIÓN</p><h2>Servicios <span class="accent-green">oncológicos</span></h2><div class="cards"><article class="service"><div class="service-icon">01</div><h3>Consulta oncológica</h3><p>Valoración especializada y orientación diagnóstica.</p></article><article class="service"><div class="service-icon">02</div><h3>Plan de tratamiento</h3><p>Evaluación de alternativas terapéuticas individualizadas.</p></article><article class="service"><div class="service-icon">03</div><h3>Segunda opinión</h3><p>Revisión de diagnósticos y planes de manejo.</p></article><article class="service"><div class="service-icon">04</div><h3>Seguimiento</h3><p>Control durante y después del tratamiento oncológico.</p></article></div></div></section>
@@ -24,7 +96,6 @@
 <article class="resource-card"><span class="resource-label"><span aria-hidden="true" class="cancer-icon">✺</span>Melanoma</span><h3>Atención a los cambios de la piel</h3><p>El melanoma es un cáncer de piel que requiere diagnóstico y estadificación adecuados. Según el estadio, pueden utilizarse cirugía, inmunoterapia o tratamientos dirigidos.</p><details><summary>Leer recomendaciones</summary><p>Protege tu piel de la radiación ultravioleta y consulta por lunares nuevos o lesiones que cambian de forma, color, tamaño o sangran.</p></details></article>
 <article class="resource-card resource-wide"><span class="resource-label"><span aria-hidden="true" class="cancer-icon">♡</span>Bienestar durante el tratamiento</span><h3>Alimentación del paciente oncológico</h3><p>Prioriza una alimentación suficiente, variada y adaptada a los síntomas, con aporte adecuado de proteínas y líquidos. Las necesidades cambian según el tratamiento, el peso y el estado nutricional.</p><details><summary>Consejos prácticos</summary><p>Si hay falta de apetito, pueden ayudar comidas pequeñas y frecuentes. Ante náuseas, dificultad para tragar o pérdida de peso, solicita valoración nutricional. Evita dietas restrictivas y suplementos sin indicación del equipo tratante.</p></details></article>
 <article class="resource-card resource-wide"><span class="resource-label"><span aria-hidden="true" class="cancer-icon">✳</span>Prevención y autocuidado</span><h3>Consejos generales de salud</h3><p>Evitar el tabaco, limitar el alcohol, mantener actividad física adaptada a cada persona, protegerse del sol y seguir las vacunas y controles recomendados contribuye al cuidado de la salud.</p><details><summary>Cuándo consultar</summary><p>Durante un tratamiento oncológico, la fiebre, dificultad respiratoria, sangrado importante o deterioro rápido requieren valoración médica urgente. Consulta al equipo tratante sobre las indicaciones específicas de tu tratamiento.</p></details></article>
-
 </div><p class="resources-note">Contenido educativo general. No reemplaza una evaluación médica individualizada ni constituye una indicación de tratamiento.</p></div></section><section class="section" id="ubicaciones"><div class="wrap"><p class="eyebrow">ATENCIÓN PRESENCIAL · PREVIA CITA</p><div class="locations"><div><h3>Loja</h3>
 <div class="clinic"><h4>Clínica Medilab</h4><p>Av. Eugenio Espejo y Shuaras</p><p>Teléfonos: <a href="tel:+593994743362">099 474 3362</a> / <a href="tel:+59373950500">07 395 0500</a>, ext. 1200</p></div>
 <div class="clinic"><h4>Clínica San Gabriel</h4><p>Azuay entre Bolívar y Sucre</p><p>Teléfono: <a href="tel:+593990080590">099 008 0590</a></p></div>
@@ -33,7 +104,7 @@
 <p class="eyebrow" style="margin-bottom:8px;">ATENCIÓN VIRTUAL · PREVIA CITA</p>
 <h3 style="margin:0 0 10px;">Teleconsulta Oncológica</h3>
 <p style="margin:0 0 17px;">Atención especializada a distancia para revisión de resultados, segundas opiniones y seguimiento oncológico, desde cualquier lugar del Ecuador.</p>
-<a class="btn" href="https://wa.me/593995847769?text=Hola%2C%20deseo%20agendar%20una%20teleconsulta%20oncol%C3%B3gica." target="_blank" rel="noopener noreferrer">Agendar teleconsulta ↗</a>
+<a class="btn" href="https://wa.me/593995847769?text=Hola%2C%20deseo%20agendar%20una%20teleconsulta%20oncol%C3%B3gica." rel="noopener noreferrer" target="_blank">Agendar teleconsulta ↗</a>
 </div>
 </div></section>
 <section class="section contact" id="contacto"><div class="wrap contact-grid"><div><p class="eyebrow light">ESTAMOS PARA ORIENTARTE</p><h2>Agenda tu consulta</h2><p>Agenda tu consulta por WhatsApp. Atención únicamente previa cita en Loja y Guayaquil.</p></div><div class="contact-panel"><h3>Contacto y citas</h3><a class="btn" href="https://wa.me/593995847769?text=Hola%2C%20deseo%20agendar%20una%20consulta%20oncol%C3%B3gica." rel="noopener noreferrer" target="_blank">Agendar por WhatsApp</a><p>WhatsApp: <a href="https://wa.me/593995847769" rel="noopener noreferrer" target="_blank">+593 99 584 7769</a></p><p>Instagram: <a href="https://www.instagram.com/leninpalacios.oncologo/" rel="noopener noreferrer" target="_blank">@leninpalacios.oncologo</a></p><p>Atención previa cita · Loja y Guayaquil</p><p class="fine">Para proteger tu privacidad, evita enviar historias clínicas o datos médicos sensibles por redes sociales.</p></div></div></section>
